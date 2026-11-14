@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <nav class="navbar md:navbar-expand bg-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="imgs/Gulosas Receitas Culinary Logo.webp" alt=""></a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                    data-bs-target="#navbarDrawer" aria-controls="navbarDrawer" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarDrawer" aria-labelledby="navbarDrawerLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarDrawerLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body mb-2 md:mb-0">
+                        <ul class="nav navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Receitas</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                    Doces
+                                </button>
+                                <div class="menu">
+                                    <a class="menu-item" href="#">Bolos</a>
+                                    <a class="menu-item" href="#">Sobremesas</a>
+                                    <hr class="menu-divider">
+                                    <a class="menu-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" type="button" data-bs-toggle="menu" aria-expanded="false">
+                                    Salgados
+                                </button>
+                                <div class="menu">
+                                    <a class="menu-item" href="#">Principais</a>
+                                    <a class="menu-item" href="#">Café da tarde</a>
+                                    <hr class="menu-divider">
+                                    <a class="menu-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="hstack gap-2" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                            <button class="btn-solid btn-icon theme-secondary" type="submit">
+                                <svg class="bi" width="16" height="16">
+                                    <use href="#search" />
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="conteudo">
+
+            <button class="btn-voltar" onclick="history.back()">
+                <img src="imgs/Voltar Culinary Button with Chef Hat.webp" alt="">
+            </button>
+
+            <section class="content-receita">
+                <div class="container-mt-4">
+                    <div class="img-receita" class="col-md-3">
+                        <h1 class="mb-4">Bolo Kit Kat com Brigadeiro</h1>
+                        <img src="imgs/bolo de chocolate.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="img-avaliacao">
+                        <img src="imgs/avaliacao.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-5 text-start">
+                   
+                    <div class="ingredientes mb-3">
+                        <div class="card">
+                            <div class="card-header fw-bold">
+                                Ingredientes
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Massa de Chocolate</h5>
+                                <ul class="card-text">
+                                    <li>4 ovos</li>
+                                    <li>2 xícaras (chá) de açúcar</li>
+                                    <li>2 xícaras (chá) de farinha de trigo</li>
+                                    <li>1 xícara (chá) de chocolate em pó 50%</li>
+                                    <li>1 xícara (chá) de leite morno</li>
+                                    <li>1/2 xícara (chá) de óleo</li>
+                                    <li>1 colher (sopa) de fermento em pó</li>
+                                </ul>
+
+                                <h5 class="card-title mt-3">Recheio, Cobertura e Decoração</h5>
+                                <ul class="card-text">
+                                    <li>2 latas de leite condensado</li>
+                                    <li>1 caixa de creme de leite</li>
+                                    <li>4 colheres (sopa) de chocolate em pó 50%</li>
+                                    <li>2 colheres (sopa) de manteiga sem sal</li>
+                                    <li>10 pacotes de Kit Kat (aproximadamente 40 barrinhas)</li>
+                                    <li>Chocolate granulado para decorar os brigadeiros</li>
+                                    <li>1 fita de cetim para amarrar em volta do bolo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+              
+                    <div class="preparo">
+                        <div class="card">
+                            <div class="card-header fw-bold">
+                                Modo de Preparo
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Passo a passo</h5>
+                                <ol class="card-text">
+                                    <li><strong>Massa:</strong> Bata os ovos, o açúcar e o óleo até obter um creme
+                                        claro. Adicione o chocolate em pó, a farinha e o leite morno aos poucos. Por
+                                        último, incorpore o fermento. Asse em forma redonda untada a 180°C por cerca de
+                                        40 minutos.</li>
+                                    <li><strong>Brigadeiro:</strong> Em uma panela, leve ao fogo baixo o leite
+                                        condensado, o chocolate em pó e a manteiga, mexendo sempre até dar ponto de
+                                        enrolar (desgrudar do fundo). Misture o creme de leite, desligue o fogo e deixe
+                                        esfriar.</li>
+                                    <li><strong>Montagem:</strong> Corte o bolo frio ao meio, recheie com metade do
+                                        brigadeiro e cubra com a outra metade da massa. Passe uma camada fina de
+                                        brigadeiro nas laterais para ajudar a colar os chocolates.</li>
+                                    <li><strong>Decoração:</strong> Separe as barrinhas de Kit Kat e grude uma ao lado
+                                        da outra em toda a volta do bolo, amarrando a fita de cetim para firmar. Enrole
+                                        o restante do brigadeiro, passe no granulado e cubra todo o topo do bolo.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </section>
+        </section>
+
+        <section class="forms">
+
+            <div class="form-field">
+                <label for="fieldTextarea" class="form-label">Avalie essa Receita</label>
+                <textarea class="form-control" id="fieldTextarea" rows="3"></textarea>
+                <div class="form-text">
+                    Be sure to include relevant details.
+                </div>
+            </div>
+            <button type="button" class="btn-outline theme-danger">Enviar</button>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

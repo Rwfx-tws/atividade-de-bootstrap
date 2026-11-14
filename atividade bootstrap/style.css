@@ -1,0 +1,90 @@
+:root{
+    --cor-destaque:#DC143C;
+    --cor-fundo:#080A0C;
+}
+
+
+*{
+    background-color:var(--cor-fundo)
+}
+
+
+
+.navbar-brand img{
+    height: 65px;
+}
+
+.btn-voltar{
+    background:var(--cor-destaque);
+    color: #FFF0D8;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+    margin: 20px;
+   
+}
+
+.btn-voltar img {
+    height: 60px;
+    border-radius:20px ;
+}
+
+.btn-voltar:hover {
+    background: #D95F00;
+    transform: translateX(-4px);
+}
+
+.hero-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color:var(--cor-destaque);
+    font-size: 80px;
+}
+
+.hero-section .card {
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.card img{
+    align-items: center;
+    height: 200px;
+    width: 335px;
+    margin: 4px;
+    border-radius: 7px;
+}
+.content-receita {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    margin: 40px;
+}
+
+.content-receita img {
+    height: 400px;
+    width: px;
+    object-fit: cover; 
+    border-radius: 15px;
+}
+
+.ingredientes {
+    margin-bottom: 20px; 
+}
+
+.ingredientes, .preparo {
+    text-align: left;
+}
+
+.img-receita h1{
+    color: var(--cor-destaque);
+}
